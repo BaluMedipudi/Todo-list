@@ -1,0 +1,87 @@
+body {
+    font-family: Arial;
+    padding-bottom: 1500px;
+}
+
+.heading{
+    font-weight: 800;
+    font-size:25px ;
+
+}
+.display {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    row-gap: 15px;
+    column-gap: 10px;
+    align-items: center;
+    max-width: 700px;
+
+}
+.header {
+    
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    max-width: 700px;
+}
+.input {
+    padding: 10px;
+    max-width: 300px;
+    font-size: 17px;
+    border-radius: 20px;
+    border-style:solid ;
+}
+.duedate {
+    max-width: 130px;
+    font-size: 17px;
+   border-radius: 5px;
+  border-color: rgb(116, 115, 114);
+  border-style:solid ;
+}
+.addbutton {
+    max-width: 80px;
+    background-color: rgb(11, 170, 11);
+    border: none;
+    font-weight: 520;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 12px 22px 12px 22px;
+}
+.delbutton {
+    max-width: 80px;
+    background-color: red;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+font-size: 15px;
+}
+.checking{
+    display:flex;
+    align-items: center;
+}
+.checkbutton{
+  background-color: white;
+  height: 30px;
+ margin-right: 8px;
+ border-width: 1px;
+ cursor: pointer;
+}
+.tickmark{
+    height: 20px;
+    margin-top: 3px;
+}
+.greentick{
+    width:25px;
+}
+.resetbutton{
+    margin-top: 15px;
+    background-color: rgb(0, 0, 128);border: none;
+    padding: 12px;
+    border-radius: 4px;
+    font-weight: 500;
+    color: aliceblue;
+    cursor: pointer;
+   
+}
