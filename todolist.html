@@ -6,18 +6,29 @@
     </style>
     <link rel="stylesheet" href="todolist.css">
     </head>
-<body>
+<body><div class="mainheading">Todo list</div>
     <div class="mainpage">
-        <p class="heading">Todo List</p>
-        <div class="header">
-            <input class="inputdata input" placeholder="Todo name">
-            <input class="duedateinput duedate" type="date">
-            <button class="addbutton" onclick="adddata();">Add</button>
+        <div class="intro">Welcome To Todo list</div>
+        <button class="heading" onclick="openmenu();"><img class="hamburgericon"  src="hamburger.jpg">Menu</button>
+        <div class="menu"></div>
+        <div class="mainframe">
+        <div class="frame1"></div>
+        <div class="frame2">
+            <div class="header">
+                 <input class="inputdata input" placeholder="Todo name" onkeydown="addtask(event);">
+                <input class="duedateinput duedate" type="date" onkeydown="addtask(event);">
+                 <button class="addbutton" onclick="adddata();">Add</button>
+             </div>
+             <button class="resetbutton" onclick="resetdata();">Reset</button>
+             <div class="display"></div>
+         </div>
+         <div class="frame3"></div>
         </div>
-        <button class="resetbutton" onclick="resetdata();">Reset</button>
-       
-    </div>
-    <div class="display"></div>
-    <script  src="todolist.js">
+       </div>
+   <div class="bottomheading"></div>
+    <a href="http://127.0.0.1:5500/todolist/todolist.html"
+ > <button class="topbutton"><img class="backtotop" src="topbutton.png"></button></a>  
+ 
+ <script  src="todolist.js">
     </script>
 </body
